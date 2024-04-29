@@ -34,6 +34,7 @@ import codingRaja from "./company/codingRaja.png";
 import extion_InfoTech from "./company/extion_InfoTech.png";
 import oasis_infobyte from "./company/oasis_infobyte.png";
 import suven_consultants from "./company/suven_consultants.png";
+import bharat_Intern from "./company/bharat_Intern.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -60,6 +61,7 @@ import CodingRaja_Internship from "./certificates/CodingRaja_Internship.jpg";
 import Extion_Internship from "./certificates/Extion_Internship.jpg";
 import Oasis_Internship from "./certificates/Oasis_Internship.jpg";
 import Suven_Internship from "./certificates/Suven_Internship.png";
+import Bharat_Internship from "./certificates/Bharat_Internship.jpg";
 import react from "./certificates/React.jpg";
 import fullStack from "./certificates/Full_Stack.jpg";
 
@@ -97,6 +99,7 @@ export {
   extion_InfoTech,
   oasis_infobyte,
   suven_consultants,
+  bharat_Intern,
   react,
   fullStack,
   carrent,
@@ -123,4 +126,5 @@ export {
   Extion_Internship,
   Oasis_Internship,
   Suven_Internship,
+  Bharat_Internship,
 };

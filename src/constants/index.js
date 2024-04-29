@@ -40,6 +40,7 @@ import {
     Extion_Internship,
     Oasis_Internship,
     Suven_Internship,
+    Bharat_Internship,
     react,
     fullStack,
     nullclass,
@@ -50,6 +51,7 @@ import {
     extion_InfoTech,
     oasis_infobyte,
     suven_consultants,
+    bharat_Intern,
 } from "../assets";
 
 export const navLinks = [
@@ -252,10 +254,22 @@ const experiences = [
         ],
     },
     {
+        title: "Web Development and Designing Intern",
+        company_name: "Bharat Intern",
+        icon: bharat_Intern,
+        iconBg: "#E6DEDD",
+        modify: "w-[100%] h-[100%]",
+        date: "10 Mar 2024 - 10 Apr 2024",
+        points: [
+            "Dynamic Registration Form: Built a registration form using React, Node.js, Express, and MongoDB, Implemented form validations to ensure data integrity, Facilitated seamless sign-up and sign-in processes, enhancing user experience, Integrated captivating 3D animation featuring a rotating earth to elevate visual appeal.",
+            "Blog Website Development: Crafted a comprehensive blog website using React, Node.js, Express, and MongoDB, Enabled effortless reading and writing of posts for users, Incorporated features like custom avatars for profile editing and a rich text editor for blog creation, Developed a dedicated mobile UI for optimized user experience across devices.",
+        ],
+    },
+    {
         title: "Front End Development Intern",
         company_name: "Suven Consultants",
         icon: suven_consultants,
-        iconBg: "#E6DEDD",
+        iconBg: "#383E56",
         modify: "w-[75%] h-[75%]",
         date: "12 Mar 2024 - 12 Apr 2024",
         points: [
@@ -319,7 +333,7 @@ const certificates = [
             "Click on Preview Button to view Training and Internship Certificate.",
         tags: [
             {
-                name: "LOI",
+                name: "Internship",
                 color: "blue-text-gradient",
             },
             {
@@ -337,7 +351,7 @@ const certificates = [
             "Click on Preview Button to view Internship Certificate and LOR.",
         tags: [
             {
-                name: "LOI",
+                name: "Internship",
                 color: "pink-text-gradient",
             },
             {
@@ -355,7 +369,7 @@ const certificates = [
             "Click on Preview Button to view Internship Certificate..",
         tags: [
             {
-                name: "LOI",
+                name: "Internship",
                 color: "green-text-gradient",
             },
         ],
@@ -369,7 +383,7 @@ const certificates = [
             "Click on Preview Button to view Internship Certificate and LOR.",
         tags: [
             {
-                name: "LOI",
+                name: "Internship",
                 color: "pink-text-gradient",
             },
             {
@@ -387,7 +401,7 @@ const certificates = [
             "Click on Preview Button to view Internship Certificate.",
         tags: [
             {
-                name: "LOI",
+                name: "Internship",
                 color: "green-text-gradient",
             },
         ],
@@ -401,7 +415,7 @@ const certificates = [
             "Click on Preview Button to view Internship Certificate.",
         tags: [
             {
-                name: "LOI",
+                name: "Internship",
                 color: "pink-text-gradient",
             },
         ],
@@ -415,12 +429,16 @@ const certificates = [
             "Click on Preview Button to view Internship Certificate and LOA.",
         tags: [
             {
-                name: "LOI",
+                name: "Internship",
                 color: "blue-text-gradient",
             },
             {
                 name: "LOA",
                 color: "green-text-gradient",
+            },
+            {
+                name: "LOR",
+                color: "pink-text-gradient",
             },
         ],
         image: Oasis_Internship,
@@ -433,13 +451,26 @@ const certificates = [
             "Click on Preview Button to view Internship Certificate.",
         tags: [
             {
-                name: "LOI",
-                color: "pink-text-gradient",
+                name: "Internship",
+                color: "blue-text-gradient",
             },
         ],
         image: Suven_Internship,
         certificates_link: "https://drive.google.com/file/d/1n-C3mCGHZuvpEyF_p3srqLqeQZ1OnQn8/view?usp=drive_link",
         // company_logo: suven_consultants,
+    },
+    {
+        name: "Bharat Intern",
+        description:
+            "Click on Preview Button to view Internship Certificate.",
+        tags: [
+            {
+                name: "Internship",
+                color: "green-text-gradient",
+            },
+        ],
+        image: Bharat_Internship,
+        certificates_link: "https://drive.google.com/file/d/13wPWKxE7U_usCV1feqXNnI4v8vPPuH4q/view?usp=drive_link",
     },
     {
         name: "Udemy - Full Stack",
@@ -448,7 +479,7 @@ const certificates = [
         tags: [
             {
                 name: "FullStack",
-                color: "blue-text-gradient",
+                color: "pink-text-gradient",
             },
         ],
         image: fullStack,
@@ -461,7 +492,7 @@ const certificates = [
         tags: [
             {
                 name: "React",
-                color: "green-text-gradient",
+                color: "blue-text-gradient",
             },
         ],
         image: react,
